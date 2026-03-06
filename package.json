@@ -1,0 +1,24 @@
+{
+  "name": "wgpu-qwen3.5-0.8b",
+  "version": "1.0.0",
+  "description": "A Proof of Concept demonstrating Alibaba's Qwen 3.5 (0.8B) Multimodal model running locally in the browser via WebGPU.",
+  "type": "module",
+  "author": "jerrikchr",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jerrikchr/WGPU-Qwen3.50.8b.git"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^7.3.1"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "^4.0.0-next.5",
+    "onnxruntime-web": "^1.25.0-dev.20260303-e7e64dc112"
+  }
+}
